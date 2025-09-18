@@ -1,47 +1,24 @@
 # 👋 Hi — I'm Agba Valentine Cheluchi (Krixx / KrixxValle)
 
 <p align="center">
-  <img src="./robot.svg" alt="Humanoid robot working" width="520" />
+  <!-- Choose one: robot-bounce.svg or krixx-bounce.svg -->
+  <img src="./robot-bounce.svg" alt="Bouncing robot" width="820" />
+  <!-- <img src="./krixx-bounce.svg" alt="Krixx bouncing letters" width="820" /> -->
 </p>
 
 <p align="center">
-  <em>Humanoid assistant, busy building AI systems, typing out solutions...</em>
+  <em>Interactive README — hover in your browser and watch it move ✨</em>
 </p>
-
----
-
-## 🧭 About Me
-- 🔭 Building **AI-driven assistants** & backend services (Django / FastAPI)  
-- 🧑‍💻 "Excellent vibe coder" — I like practical, well-documented solutions  
-- 🌍 Based in **Owerri, Imo, Nigeria** — working with global clients  
 
 ---
 
 ## 🛠️ Tech & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi,git,github,linux,postgres,flutter" alt="skills"/>
-</p>
-
----
-
-## ✨ Highlights
-- 🚀 Built **CELIA** AI fitness lead-gen (2,995 leads in 2 months)  
-- 📉 Reduced support tickets by **79.6%** at Dog-Daily with an AI assistant  
-- 🤖 Created production chatbots with CRM integration & scheduling systems  
-
----
-
-## 📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=krixx646&show_icons=true&theme=tokyonight" alt="GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=krixx646&theme=tokyonight" alt="GitHub streak" />
-</p>
-
----
-
-## 📫 Connect
-<p align="center">
-  <a href="https://linkedin.com/in/valentine-cheluchi">LinkedIn</a> ·
-  <a href="mailto:krixxvalle@gmail.com">Email</a> ·
-  <a href="https://krixx.pythonanywhere.com">AI Services (demo)</a>
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,git,github,linux,postgres,flutter" alt="core skills"/>
+  <br/><br/>
+  <img alt="n8n" src="https://img.shields.io/badge/-n8n-000000?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img alt="OpenAI" src="https://img.shields.io/badge/-OpenAI-111827?style=for-the-badge&logo=openai&logoColor=white" />
+  <img alt="Botpress" src="https://img.shields.io/badge/-Botpress-1F2937?style=for-the-badge&logo=botpress&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/-docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/-redis-D82C20?style=for-the-badge&logo=redis&logoColor=white" />
 </p>
