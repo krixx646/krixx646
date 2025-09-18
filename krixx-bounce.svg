@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="Bouncing Krixx letters">
+  <defs>
+    <style>
+      .let { font-family: "Segoe UI", Roboto, system-ui, sans-serif; font-weight: 800; font-size:56px; fill:#7dd3fc; }
+    </style>
+  </defs>
+
+  <!-- transparent background -->
+  <rect width="100%" height="100%" fill="none"/>
+
+  <!-- define multiple corner-ish paths (slightly different for each letter) -->
+  <path id="pA" d="M60 40 L860 40 L60 280 L860 280 L60 40" fill="none" stroke="none" />
+  <path id="pB" d="M860 40 L60 40 L860 280 L60 280 L860 40" fill="none" stroke="none" />
+  <path id="pC" d="M460 40 L860 40 L460 280 L60 40 L460 40" fill="none" stroke="none" />
+  <path id="pD" d="M60 280 L460 40 L860 280 L460 280 L60 280" fill="none" stroke="none" />
+  <path id="pE" d="M860 280 L60 40 L460 280 L860 40 L860 280" fill="none" stroke="none" />
+
+  <!-- K -->
+  <text class="let" x="0" y="0">
+    <tspan>k</tspan>
+    <animateMotion dur="6.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#pA"/>
+    </animateMotion>
+    <animateTransform attributeName="transform" attributeType="XML" type="scale"
+      values="1;1.08;0.96;1" keyTimes="0;0.25;0.6;1" dur="6.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- r -->
+  <text class="let" x="0" y="0">
+    <tspan>r</tspan>
+    <animateMotion dur="7.2s" begin="0.4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#pB"/>
+    </animateMotion>
+    <animateTransform attributeName="transform" attributeType="XML" type="scale"
+      values="1;1.06;0.97;1" keyTimes="0;0.27;0.6;1" dur="7.2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- i -->
+  <text class="let" x="0" y="0">
+    <tspan>i</tspan>
+    <animateMotion dur="6.9s" begin="0.8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#pC"/>
+    </animateMotion>
+    <animateTransform attributeName="transform" attributeType="XML" type="scale"
+      values="1;1.05;0.98;1" keyTimes="0;0.24;0.65;1" dur="6.9s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- x -->
+  <text class="let" x="0" y="0">
+    <tspan>x</tspan>
+    <animateMotion dur="7.5s" begin="1s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#pD"/>
+    </animateMotion>
+    <animateTransform attributeName="transform" attributeType="XML" type="scale"
+      values="1;1.09;0.95;1" keyTimes="0;0.22;0.55;1" dur="7.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- second x (slightly offset timing) -->
+  <text class="let" x="0" y="0">
+    <tspan>x</tspan>
+    <animateMotion dur="8.1s" begin="0.2s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#pE"/>
+    </animateMotion>
+    <animateTransform attributeName="transform" attributeType="XML" type="scale"
+      values="1;1.07;0.96;1" keyTimes="0;0.3;0.6;1" dur="8.1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- position the texts so they don't start overlapped (using small initial translate) -->
+  <g transform="translate(80,120)"><use href="#"/></g>
+
+  <!-- fallback caption -->
+  <text x="490" y="340" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">
+    krixx — bouncing letters
+  </text>
+</svg>
