@@ -36,7 +36,7 @@
 
 ## 🌐 Connect with Me
 <p align="center">
-  <a href="https://krixxvalle.my.canva.site/krixx-valentine-cheluchi-professional-online-portfolio" target="_blank">
+  <a href="https://krixx.pythonanywhere.com/portfolio/" target="_blank">
     <img src="https://img.shields.io/badge/-Portfolio-1E40AF?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
   <a href="https://linkedin.com/in/valentine-cheluchi" target="_blank">
